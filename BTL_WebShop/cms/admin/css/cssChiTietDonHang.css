@@ -1,0 +1,27 @@
+﻿body{font:normal 14px Arial;color:#333;;margin:0px;padding:0px}
+*{box-sizing:border-box}
+a{text-decoration:none;color:#333}
+a:hover{color:#f75d75}
+.container{padding:0px 20px}
+
+/*Một số class phổ biến*/
+.fl{float:left}
+.fr{float:right}
+.cb{clear:both}
+.tar{text-align:right}
+
+.DonHang{width:80%;margin:auto}
+.tieuDeTrang{text-align:center;font-size:28px;font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';padding-top:20px;padding-bottom:5px}
+.ngayDat{text-align:center}
+
+.thongTinKH{padding-top:20px;line-height:25px}
+.head{font-weight:bold}
+.thongTinSanPham{padding-top:20px}
+.thongTinSanPham .head{padding-bottom:10px}
+.thongTinSanPham table{width:100%;border-collapse:collapse;border:solid 1px #dfdfdf}
+.thongTinSanPham table th,
+.thongTinSanPham table td{padding:10px;border:solid 1px #dfdfdf}
+.thongTinSanPham table th{background:#f7f7f7;text-align:left}
+.thongTinSanPham table th.tar{text-align:right}
+
+.thongTinCuoi{padding-top:20px;line-height:25px}

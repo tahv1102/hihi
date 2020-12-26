@@ -1,0 +1,24 @@
+﻿#trangphai {
+    background: #fff;
+    border-radius: 4px;
+    padding: 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    padding-bottom: 18px;
+}
+.DauGia{padding:10px}
+
+.LuatChoi{line-height:20px}
+.FormDauGia{padding-bottom:10px}
+.FormDauGia .head{font-weight:bold;padding-bottom:10px}
+.thongTinKhac{float:left;width:440px;text-align:center}
+.giaDeXuat{font-weight:bold;text-transform:uppercase;color:#f75d75;padding-bottom:10px}
+.giaDeXuat span{font-size:28px}
+.thoiGianConLai{padding-bottom:20px}
+.giaBanChon{font-weight:bold;color:#2105F8}
+.giaBanChon input[type=text],
+.giaBanChon input[type=number]{padding:10px 5px;border-radius:5px;font:bold 20px Arial;color:#ff0000;width:200px}
+.nutGuiNgoai{padding-top:20px}
+.nutGuiNgoai .nutGui{background:#2105F8;display:inline-block;color:#fff;font-weight:bold;font-size:20px;text-decoration:none;padding:10px 30px;border-radius:10px}
+.nutGuiNgoai .nutGui:hover{background:#5c49ff}

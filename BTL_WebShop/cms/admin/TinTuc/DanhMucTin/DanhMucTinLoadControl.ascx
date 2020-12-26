@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="DanhMucTinLoadControl.ascx.cs" Inherits="cms_admin_TinTuc_DanhMucTin_DanhMucTinLoadControl" %>
+<asp:PlaceHolder ID="plLoadControl" runat="server"></asp:PlaceHolder>

@@ -1,0 +1,190 @@
+﻿body{font:normal 12px Arial;color:#333;;margin:0px;padding:0px}
+*{box-sizing:border-box}
+a{text-decoration:none;color:#333}
+a:hover{color:#f75d75}
+.container{padding:0px 20px}
+
+/*Một số class phổ biến*/
+.fl{float:left}
+.fr{float:right}
+.cb{clear:both}
+.tar{text-align:right}
+
+/*Phần header*/
+#header{height:80px;overflow:hidden}
+#header .logo{float:left;line-height:80px}
+#header .logo img{padding-top:15px}
+#header .accountMenu{float:right;line-height:80px}
+
+.MenuChinh{background:#f75d75}
+.MenuChinh ul,
+.MenuChinh li{list-style:none;margin:0;padding:0}
+.MenuChinh li {display:inline-block}
+.MenuChinh li a{display:inline-block;padding:10px 15px;color:#ffffff;font-weight:bold}
+.MenuChinh li a.current,
+.MenuChinh li a:hover{background:#ff006e}
+
+/*Cột Trái, cột phải trang Admin*/
+.cotTrai{float:left;width:18%;box-sizing:border-box;border:solid 1px #dfdfdf;min-height:464px}
+.cotPhai{float:right;width:80%;box-sizing:border-box;border:solid 1px #dfdfdf;min-height:464px;}
+
+/*Css cho menu quản lý trái*/
+.cotTrai .head{background:#f9f9f9;padding:10px;font-weight:bold;border-top:solid 1px #dfdfdf;border-bottom:solid 1px #dfdfdf}
+.cotTrai .head:first-child{border-top:none}
+.cotTrai ul li{padding:5px 0}
+.cotTrai ul li a.current,
+.cotTrai ul li a:hover{color:#ff006e}
+
+/*Cột phải*/
+.cotPhai .head{background:#f9f9f9;padding:10px;font-weight:bold;border-top:solid 1px #dfdfdf;border-bottom:solid 1px #dfdfdf}
+.cotPhai .head:first-child{border-top:none}
+
+/*css Khu thêm mới*/
+.FormThemMoi{padding:15px}
+.thongTin{overflow:hidden;padding-bottom:10px}
+.tenTruong{float:left;width:150px}
+.oNhap{float:left;width:calc(100% - 150px)}
+.FormThemMoi input[type=text],
+.FormThemMoi input[type=password],
+.FormThemMoi select,
+.FormThemMoi textarea{border:solid 1px #dfdfdf;width:50%;padding:5px}
+.FormThemMoi .btThemMoi,
+.FormThemMoi .btHuy{border:0 ;background:#f75d75;cursor:pointer;padding:10px 20px;color:#fff;font-weight:bold}
+.FormThemMoi .btHuy{background:#bbb;margin-left:10px}
+.FormThemMoi .thongBaoTaoThanhCong{color:#ff006e;font-size:16px;padding-bottom:20px;text-align:center;font-weight:bold}
+.FormThemMoi .anhDaiDien{max-width:200px;max-height:120px;}
+
+/*CSS trang hiển thị các danh mục sản phẩm, danh mục tin tức*/
+.KhungChuaBang{padding:10px}
+table.tbDanhMuc{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbDanhMuc th,
+table.tbDanhMuc td{padding:5px;border:1px solid #dfdfdf}
+table.tbDanhMuc .cotMa{width:40px;text-align:center}
+table.tbDanhMuc .cotAnh{width:120px;text-align:center}
+table.tbDanhMuc .cotDonGia{width:120px;text-align:center}
+table.tbDanhMuc .cotNgayTao{width:150px}
+table.tbDanhMuc .cotSoLuong{width:120px;text-align:center}
+table.tbDanhMuc .cotThuTu{width:70px;text-align:center}
+table.tbDanhMuc .cotTenDK{width:120px;text-align:center}
+table.tbDanhMuc .cotEmail{width:120px;text-align:center}
+table.tbDanhMuc .cotDiaChia{width:120px;text-align:center}
+table.tbDanhMuc .cotHoTen{width:120px;text-align:center}
+table.tbDanhMuc .cotNgaySinh{width:120px;text-align:center}
+table.tbDanhMuc .cotGioiTinh{width:70px;text-align:center}
+table.tbDanhMuc .cotCongCu{width:120px;text-align:right}
+table.tbDanhMuc .cotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat}
+table.tbDanhMuc .cotCongCu a.dmcon{background-image:url(expend.jpg) }
+table.tbDanhMuc .cotCongCu a.sua{background-image:url(edit.jpg) }
+table.tbDanhMuc .cotCongCu a.xoa{background-image:url(delete.jpg) }
+table.tbDanhMuc .cotAnh{position:relative;z-index:1}
+table.tbDanhMuc .cotAnh .anhDaiDien{max-width:40px;max-height:40px}
+table.tbDanhMuc .cotAnh .anhDaiDienHover{max-width:200px;max-height:200px;display:none;position:absolute;z-index:1;top:0;right:80px}
+table.tbDanhMuc .cotAnh:hover .anhDaiDienHover{display:inline-block}
+.cotPhai .head .btThemMoi{display:inline-block;background:url(add.jpg) no-repeat top left;padding-left:25px;padding-bottom:5px;padding-top:5px;color:#0026ff}
+
+/* CSS trang hiển thị màu của sản phẩm*/
+table.tbMau{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbMau th,
+table.tbMau td{padding:5px;border:1px solid #dfdfdf}
+table.tbMau .cotMa{width:40px;text-align:center}
+table.tbMau .cotCongCu{width:120px;text-align:right}
+table.tbMau .cotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat}
+table.tbMau .cotCongCu a.dmcon{background-image:url(expend.jpg) }
+table.tbMau .cotCongCu a.sua{background-image:url(edit.jpg) }
+table.tbMau .cotCongCu a.xoa{background-image:url(delete.jpg) }
+
+/* CSS trang hiển thị size của sản phẩm*/
+table.tbSize{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbSize th,
+table.tbSize td{padding:5px;border:1px solid #dfdfdf}
+table.tbSize .cotMa{width:40px;text-align:center}
+table.tbSize .cotCongCu{width:120px;text-align:right}
+table.tbSize .cotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat}
+table.tbSize .cotCongCu a.dmcon{background-image:url(expend.jpg) }
+table.tbSize .cotCongCu a.sua{background-image:url(edit.jpg) }
+table.tbSize .cotCongCu a.xoa{background-image:url(delete.jpg) }
+
+/* CSS trang hiển thị chất liệu sản phẩm*/
+table.tbChatLieu{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbChatLieu th,
+table.tbChatLieu td{padding:5px;border:1px solid #dfdfdf}
+table.tbChatLieu .cotMa{width:40px;text-align:center}
+table.tbChatLieu .cotCongCu{width:120px;text-align:right}
+table.tbChatLieu .cotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat}
+table.tbChatLieu .cotCongCu a.dmcon{background-image:url(expend.jpg) }
+table.tbChatLieu .cotCongCu a.sua{background-image:url(edit.jpg) }
+table.tbChatLieu .cotCongCu a.xoa{background-image:url(delete.jpg) }
+
+/* CSS trang hiển thị nhóm sản phẩm*/
+table.tbNhomSanPham{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbNhomSanPham th,
+table.tbNhomSanPham td{padding:5px;border:1px solid #dfdfdf}
+table.tbNhomSanPham .cotMa{width:40px;text-align:center}
+table.tbNhomSanPham .cotAnh{width:120px;text-align:center}
+table.tbNhomSanPham .cotThuTu{width:70px;text-align:center}
+table.tbNhomSanPham .cotSoSanPhamHienThi{width:70px;text-align:center}
+table.tbNhomSanPham .cotCongCu{width:120px;text-align:right}
+table.tbNhomSanPham .cotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat}
+table.tbNhomSanPham .cotCongCu a.dmcon{background-image:url(expend.jpg) }
+table.tbNhomSanPham .cotCongCu a.sua{background-image:url(edit.jpg) }
+table.tbNhomSanPham .cotCongCu a.xoa{background-image:url(delete.jpg) }
+table.tbNhomSanPham .cotCongCu a.xem{background-image:url(view.png) }
+table.tbNhomSanPham .cotAnh{position:relative;z-index:1}
+table.tbNhomSanPham .cotAnh .anhDaiDien{max-width:40px;max-height:40px}
+table.tbNhomSanPham .cotAnh .anhDaiDienHover{max-width:200px;max-height:200px;display:none;position:absolute;z-index:1;top:0;right:80px}
+table.tbNhomSanPham .cotAnh:hover .anhDaiDienHover{display:inline-block}
+.cotPhai .head .btThemMoi{display:inline-block;background:url(add.jpg) no-repeat top left;padding-left:25px;padding-bottom:5px;padding-top:5px;color:#0026ff}
+
+/* CSS trang hiển thị nhóm quảng cao*/
+table.tbNhomQuangCao{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbNhomQuangCao th,
+table.tbNhomQuangCao td{padding:5px;border:1px solid #dfdfdf}
+table.tbNhomQuangCao .cotMa{width:40px;text-align:center}
+table.tbNhomQuangCao .cotAnh{width:120px;text-align:center}
+table.tbNhomQuangCao .cotThuTu{width:70px;text-align:center}
+table.tbNhomQuangCao .cotCongCu{width:120px;text-align:right}
+table.tbNhomQuangCao .cotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat}
+table.tbNhomQuangCao .cotCongCu a.dmcon{background-image:url(expend.jpg) }
+table.tbNhomQuangCao .cotCongCu a.sua{background-image:url(edit.jpg) }
+table.tbNhomQuangCao .cotCongCu a.xoa{background-image:url(delete.jpg) }
+table.tbNhomQuangCao .cotAnh{position:relative;z-index:1}
+table.tbNhomQuangCao .cotAnh .anhDaiDien{max-width:40px;max-height:40px}
+table.tbNhomQuangCao .cotAnh .anhDaiDienHover{max-width:200px;max-height:200px;display:none;position:absolute;z-index:1;top:0;right:80px}
+table.tbNhomQuangCao .cotAnh:hover .anhDaiDienHover{display:inline-block}
+.cotPhai .head .btThemMoi{display:inline-block;background:url(add.jpg) no-repeat top left;padding-left:25px;padding-bottom:5px;padding-top:5px;color:#0026ff}
+
+/* CSS trang hiển thị khách hàng*/
+table.tbKhachHang{width:100%;border-collapse:collapse;border:1px solid #dfdfdf}
+table.tbKhachHang th,
+table.tbKhachHang td{padding:5px;border:1px solid #dfdfdf}
+table.tbKhachHang .cotMa{width:40px;text-align:center}
+table.tbKhachHang .cotAnh{width:120px;text-align:center}
+table.tbKhachHang .cotThuTu{width:70px;text-align:center}
+table.tbKhachHang .cotTen{width:70px;text-align:center}
+table.tbKhachHang .cotEmail{width:120px;text-align:right}
+
+
+/*Chi tiết phiên đấu giá*/
+.PhienDauGia_ChiTiet .noiDung{padding:20px}
+.PhienDauGia_ChiTiet .ThongTinSP{float:left;width:40%;border:solid 1px blue;text-align:center;box-sizing:border-box;padding:10px}
+.PhienDauGia_ChiTiet .ThongTinSP img{width:80%}
+.PhienDauGia_ChiTiet .ThongTinSP .tenSP{font-weight:bold;color:#F75D75}
+.PhienDauGia_ChiTiet .ThongTinSP .thoiGian{padding-top:20px;font-weight:bold}
+.PhienDauGia_ChiTiet .ThongTinSP .giaDeXua{padding-top:10px;font-weight:bold;color:#F75D75}
+
+.PhienDauGia_ChiTiet .KHDangChienThang{float:right;width:55%;box-sizing:border-box;padding:10px;line-height:20px}
+.PhienDauGia_ChiTiet .KHDangChienThang .tieuDe{font-weight:bold;color:blue;font-size:20px;padding-bottom:10px}
+.PhienDauGia_ChiTiet .KHDangChienThang .nutGui{padding-top:20px}
+.PhienDauGia_ChiTiet .KHDangChienThang .nutGui a{border: 0;
+    background: #f75d75;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;}
+
+.CacLuotDauGia{padding-top:30px;padding-bottom:50px}
+.CacLuotDauGia .tieuDe{font-weight:bold;color:blue;font-size:20px;padding-bottom:10px}
+.CacLuotDauGia table{width:100%;border-collapse:collapse;border:solid 1px #dfdfdf}
+.CacLuotDauGia table th,
+.CacLuotDauGia table td{padding:8px;border:solid 1px #dfdfdf}
+.CacLuotDauGia table th{text-align:left;background:#f9f9f9}
